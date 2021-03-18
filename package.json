@@ -7,7 +7,7 @@
 			"watch": "sass --watch --no-source-map ./src/Sass/:./src/App.css"
 		}
 	},
-	"name": "cra-template-empty-sass",
+	"name": "cra-template-sass-empty",
 	"version": "1.0.0",
 	"keywords": [
 		"react",
