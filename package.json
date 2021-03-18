@@ -1,29 +1,33 @@
 {
-  "name": "cra-template-empty-sass",
-  "version": "1.0.0",
-  "keywords": [
-    "react",
-    "create-react-app",
-    "template",
-    "react-sass"
-  ],
-  "description": "Empty React app with Sass",
-  "main": "template.json"
-},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/daniel-ulises/cra-template-node-sass/",
-    "directory": "/"
-},
-  "license": "MIT",
-  "engines": {
-    "node": ">=10"
-  },
-  "files": [
-    "template",
-    "template.json"
-  ]
-},
-"devDependencies": {
-    "sass"
+	"package": {
+		"devDependencies": {
+			"sass": "^1.32.8"
+		},
+		"scripts": {
+			"watch": "sass --watch --no-source-map ./src/Sass/:./src/App.css"
+		}
+	},
+	"name": "cra-template-empty-sass",
+	"version": "1.0.0",
+	"keywords": [
+		"react",
+		"create-react-app",
+		"template",
+		"react-sass"
+	],
+	"description": "Empty React app with Sass",
+	"main": "template.json",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/daniel-ulises/cra-template-node-sass/",
+		"directory": "/"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=10"
+	},
+	"files": [
+		"template",
+		"template.json"
+	]
 }
