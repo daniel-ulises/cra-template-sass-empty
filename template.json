@@ -1,3 +1,10 @@
 {
-  "dependencies": { }
+	"package": {
+		"devDependencies": {
+			"sass": "^1.32.8"
+		},
+		"scripts": {
+			"watch": "sass --watch --no-source-map ./src/Sass/:.src/Main.css"
+		}
+	}
 }
