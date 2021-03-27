@@ -4,7 +4,7 @@
 			"sass": "^1.32.8"
 		},
 		"scripts": {
-			"watch": "sass --watch --no-source-map ./src/Sass/:./src/"
+			"watch": "sass --watch --no-source-map ./src/Sass/main.scss:./src/main.css"
 		}
 	}
 }
