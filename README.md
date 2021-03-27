@@ -7,3 +7,13 @@ To use this template simply use the following command and get to work faster.
 ```sh
 npx create-react-app my-app --template sass-empty
 ```
+
+To start watching the SASS files, there is a script for that.
+
+```sh
+# For NPM
+npm run watch
+
+#  For Yarn
+yarn watch
+```
