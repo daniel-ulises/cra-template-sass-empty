@@ -8,7 +8,8 @@ To use this template simply use the following command and get to work faster.
 npx create-react-app my-app --template sass-empty
 ```
 
-To start watching the SASS files, there is a script for that.
+To start watching the **_SASS_** files, there is a script for that.
+This will watch the **_main.scss_** file only, and it will output a **_main.css_** in your **/src** folder.
 
 ```sh
 # For NPM
